@@ -51,6 +51,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        ref: 57d536c59e434e88c0d8374d6b03671edb02885f
 
     # Cache .m2/repository
     - name: Cache local Maven repository
